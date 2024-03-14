@@ -1,0 +1,16 @@
+[01m[K/home/adityaap/aero_740/lab3/src/controller_pkg/src/controller_node.cpp:[m[K In constructor ‘[01m[KcontrollerNode::controllerNode()[m[K’:
+[01m[K/home/adityaap/aero_740/lab3/src/controller_pkg/src/controller_node.cpp:134:25:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass ros::NodeHandle[m[K’ has no member named ‘[01m[KSubscribe[m[K’; did you mean ‘[01m[Ksubscribe[m[K’?
+  134 |       desiredState = nh.[01;31m[KSubscribe[m[K("desired_state", 10, &controllerNode::onDesiredState, this); // 10 is the squeze size
+      |                         [01;31m[K^~~~~~~~~[m[K
+      |                         [32m[Ksubscribe[m[K
+[01m[K/home/adityaap/aero_740/lab3/src/controller_pkg/src/controller_node.cpp:135:25:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass ros::NodeHandle[m[K’ has no member named ‘[01m[KSubscribe[m[K’; did you mean ‘[01m[Ksubscribe[m[K’?
+  135 |       currentState = nh.[01;31m[KSubscribe[m[K("current_state", 10, &controllerNode::onDesiredState, this);
+      |                         [01;31m[K^~~~~~~~~[m[K
+      |                         [32m[Ksubscribe[m[K
+[01m[K/home/adityaap/aero_740/lab3/src/controller_pkg/src/controller_node.cpp:[m[K In member function ‘[01m[Kvoid controllerNode::controlLoop(const ros::TimerEvent&)[m[K’:
+[01m[K/home/adityaap/aero_740/lab3/src/controller_pkg/src/controller_node.cpp:422:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kcontrol_pub_[m[K’ was not declared in this scope
+  422 |       [01;31m[Kcontrol_pub_[m[K.publish(msg);
+      |       [01;31m[K^~~~~~~~~~~~[m[K
+make[2]: *** [CMakeFiles/controller_node.dir/build.make:63: CMakeFiles/controller_node.dir/src/controller_node.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:1751: CMakeFiles/controller_node.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

@@ -1,0 +1,7 @@
+controller_pkg
+/home/adityaap/aero_740/lab3/devel/.private/controller_pkg/cmake.lock /home/adityaap/aero_740/lab3/devel/./cmake.lock
+/home/adityaap/aero_740/lab3/devel/.private/controller_pkg/share/controller_pkg/cmake/controller_pkgConfig.cmake /home/adityaap/aero_740/lab3/devel/share/controller_pkg/cmake/controller_pkgConfig.cmake
+/home/adityaap/aero_740/lab3/devel/.private/controller_pkg/share/controller_pkg/cmake/controller_pkgConfig-version.cmake /home/adityaap/aero_740/lab3/devel/share/controller_pkg/cmake/controller_pkgConfig-version.cmake
+/home/adityaap/aero_740/lab3/devel/.private/controller_pkg/lib/controller_pkg/traj_publisher /home/adityaap/aero_740/lab3/devel/lib/controller_pkg/traj_publisher
+/home/adityaap/aero_740/lab3/devel/.private/controller_pkg/lib/controller_pkg/controller_node /home/adityaap/aero_740/lab3/devel/lib/controller_pkg/controller_node
+/home/adityaap/aero_740/lab3/devel/.private/controller_pkg/lib/pkgconfig/controller_pkg.pc /home/adityaap/aero_740/lab3/devel/lib/pkgconfig/controller_pkg.pc

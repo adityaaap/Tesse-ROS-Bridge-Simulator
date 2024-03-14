@@ -1,0 +1,6 @@
+devel_space: /home/adityaap/aero_740/lab3/devel
+install: false
+install_space: /home/adityaap/aero_740/lab3/install
+profile: default
+source_space: /home/adityaap/aero_740/lab3/src
+workspace: /home/adityaap/aero_740/lab3
