@@ -21,3 +21,4 @@ Breif:
  # Results
 
  ![image](./pic1.png)
+ ![video](./lab3_video.mp4)
