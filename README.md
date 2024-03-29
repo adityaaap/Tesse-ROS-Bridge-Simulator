@@ -5,11 +5,14 @@
  * The current repository shows an ROS based implementation of an Geometric Controller in SE3 to follow a desired trajcteory in 3D space.
 
 # ROS and Tesse framework
-1. Topics
+
+ ![image](./quad_rqt.png)
+
+1. Important Topics
 * desired_state
 * rotor_speeds
 * current state
-2. Nodes
+2. Important Nodes
 * traj_publisher
 * controller_node
 
