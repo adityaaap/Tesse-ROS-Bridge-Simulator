@@ -6,7 +6,7 @@
 
 # ROS and Tesse framework
 
- ![image](./quad_rqt.png)
+ ![image](./rqt_quad_control.png)
 
 1. Important Topics
 * desired_state
